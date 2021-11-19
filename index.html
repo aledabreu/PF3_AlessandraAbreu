@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> CALCULOS</div>
+
+        <div class="input">
+             <input placeholder="NOME:" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="VALOR APLICADO MENSALMENTE: " type="number" id='valor' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="TAXA DE JUROS: "  type="number" id='taxa'required="required">
+        </div>
+
+        <div class="input">
+            <input  placeholder="PARCELAS MENSAIS: "  type="number" id='parcelas'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+       
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
